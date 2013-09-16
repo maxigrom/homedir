@@ -1,0 +1,41 @@
+[user]
+    name = Maksim Rozhdestvenskiy
+    email = max73ul@gmail.com
+
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+    ui = auto
+    pager = true
+
+[merge]
+    summary=true
+
+[alias]
+    co = checkout
+    me = merge
+    br = branch
+    ci = commit
+    re = rebase
+    st = status
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    up = pull --rebase
+    put = push origin HEAD
+    phm = push heroku master
+    cod = checkout develop
+    cos = checkout staging
+    com = checkout master
+    med = merge develop
+    ll = log -30 --pretty=format:\"%h %Cblue%ar %Cgreen%an%Creset: %s %Cred%d\"
+    gr = log --graph --pretty=format:\"%Cred%h %Cblue%ar%Creset %Cgreen%an%Creset %s %Cred%d\"
+    ffs = flow feature start
+    fff = flow feature finish
+    ffp = flow feature publish
+    fhs = flow hotfix start
+    fhf = flow hotfix finish
+    frs = flow release start
+    frf = flow release finish
+    ffu = flow feature checkout
